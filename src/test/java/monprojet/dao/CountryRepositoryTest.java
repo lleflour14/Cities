@@ -49,4 +49,8 @@ public class CountryRepositoryTest {
     }
 
 
+    @Test
+    void listePop(){
+        assertEquals(countryDAO.popParPays().size(),3);
+    }
 }
